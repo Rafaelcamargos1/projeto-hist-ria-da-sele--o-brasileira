@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(255, 255, 0, 0.459);
+    min-height: 100vh;
+    font-family: 'Courgette', cursive;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(22, 216, 22), rgb(30, 117, 30));
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+header > h1 {
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Tourney', cursive;
+    font-size: 5vw;
+       
+}
+
+header > p {
+    color: black;
+    text-shadow: 1px 0px 0px  rgba(0, 0, 255, 0.733);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 2.9vw;
+    padding-bottom: 10px;
+
+    
+}
+
+nav {
+    color: rgb(22, 216, 22);
+    font-family: 'Goldman', cursive;
+    font-size: 140%;
+    padding: 10px;
+    box-shadow: inset 1px 0px 0px 3px black;
+    
+    
+
+}
+
+nav > a {
+    background-color: blue;
+    color: rgb(22, 216, 22);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 863px;
+    min-width: 320px;
+
+}
+
+nav, a:hover {
+    color: yellow;
+}
+
+#formaçao {
+    background-image: linear-gradient(to right, rgb(18, 204, 18), transparent);
+    text-shadow: 1px 0px 0px rgba(0, 0, 255, 0.733);
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+#copa1 {
+    background-image: linear-gradient(to right, rgb(18, 204, 18), transparent);
+    text-shadow: 1px 0px 0px rgba(0, 0, 255, 0.555);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#copa2 {
+    background-image: linear-gradient(to right, rgb(18, 204, 18), transparent);
+    text-shadow: 1px 0px 0px rgba(0, 0, 255, 0.555);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#copa3 {
+    background-image: linear-gradient(to right, rgb(18, 204, 18), transparent);
+    text-shadow: 1px 0px 0px rgba(0, 0, 255, 0.555);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#copa4 {
+    background-image: linear-gradient(to right, rgb(18, 204, 18), transparent);
+    text-shadow: 1px 0px 0px rgba(0, 0, 255, 0.555);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#copa5 {
+    background-image: linear-gradient(to right, rgb(18, 204, 18), transparent);
+    text-shadow: 1px 0px 0px rgba(0, 0, 255, 0.555);
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+#copa6 {
+    background-image: linear-gradient(to right, rgb(18, 204, 18), transparent);
+    text-shadow: 1px 0px 0px rgba(0, 0, 255, 0.555);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+main {
+    margin: auto;
+    max-width: 863px;
+    min-width: 320px;
+    
+    
+    
+    
+
+}
+
+main > article {
+    background-color: rgba(255, 255, 255, 0.692);
+    max-width: 863px;
+    min-width: 320px;
+    margin: auto;
+    
+    
+}
+
+article > p {
+    text-indent: 20px;
+    padding: 10px;
+    line-height: 3.2em;
+    
+    
+    
+}
+
+ 
+ main img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+    
+
+
+a#cbf {
+    text-decoration: none;
+    color: blue;
+    background-image: linear-gradient(to right, rgb(114, 233, 241), rgba(255, 255, 0, 0.486));
+    padding-right: 4px;
+    border-radius: 5px;
+}
+
+ a#cbf:hover {
+    color: rgb(14, 196, 14);
+    text-decoration: underline;
+
+}
+footer {
+    font-size: 90%;
+    background-color: black;
+    color: white;
+    text-align: center;       
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(14, 196, 14);
+}
